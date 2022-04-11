@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body-bg {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: lightgray;
+}
+.main-block {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  height: 65vh;
+  position: absolute;
+  top: 15vh;
+  left: 25%;
+}
+#display {
+  display: block;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: clip;
+}
+#input-field {
+  display: block;
+  width: 99%;
+  height: 99%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  resize: none;
+}
+#keybord {
+  display: block;
+  width: 100%;
+  height: 60%;
+}
+#row1,
+#row2,
+#row3,
+#row4,
+#row5 {
+  display: block;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3%;
+}
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key-row1,
+.key-row2,
+.key-row3,
+.key-row4,
+.key-row5 {
+  width: 6.3%;
+  height: 95%;
+  border-radius: 10px;
+  font-size: 17.5px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 1600px) and (min-width: 1280px) {
+  .main-block {
+    width: 50%;
+    left: 25%;
+  }
+  .key-row1,
+  .key-row2,
+  .key-row3,
+  .key-row4,
+  .key-row5 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 900px) {
+  .main-block {
+    width: 80%;
+    left: 10%;
+  }
+  .key-row1,
+  .key-row2,
+  .key-row3,
+  .key-row4,
+  .key-row5 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .main-block {
+    width: 80%;
+    left: 10%;
+  }
+  .key-row1,
+  .key-row2,
+  .key-row3,
+  .key-row4,
+  .key-row5 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .main-block {
+    width: 80%;
+    left: 10%;
+  }
+  .key-row1,
+  .key-row2,
+  .key-row3,
+  .key-row4,
+  .key-row5 {
+    font-size: 9px;
+  }
+}
+.key-row2 {
+  width: 6.5%;
+}
+#key14 {
+  width: 13%;
+}
+#key15 {
+  width: 10%;
+}
+#key29 {
+  width: 12%;
+}
+#key41 {
+  width: 14%;
+}
+#key42 {
+  width: 16%;
+}
+#key53 {
+  width: 17%;
+}
+#key-row5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#key54 {
+  width: 100%;
+}
+.color-gray {
+  background-color: gray;
+}
+.color-white {
+  background-color: white;
+}
